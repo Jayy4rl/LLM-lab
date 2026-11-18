@@ -1,0 +1,62 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded models and model weights
+models/
+checkpoints/
+weights/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Hugging Face cache
+.cache/
+.cache/huggingface/
+huggingface_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Experiment outputs
+outputs/
+runs/
+results/
+benchmarks/results/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
